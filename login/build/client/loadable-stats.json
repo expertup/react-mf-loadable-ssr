@@ -1,0 +1,149 @@
+{
+  "name": "web",
+  "hash": "5092cfad6c36214e3783",
+  "publicPath": "/",
+  "outputPath": "/www/bioeko.store.siekiera.ovh/moduleFederation/login/build/client",
+  "assetsByChunkName": {
+    "clientAppEntrypoint": [
+      "clientAppEntrypoint.js"
+    ],
+    "app2": [
+      "remoteEntry.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "clientAppEntrypoint.js",
+      "size": 1401204,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "clientAppEntrypoint"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        "clientAppEntrypoint"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "remoteEntry.js",
+      "size": 1369954,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "app2"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        "app2"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "app_index_js.js",
+      "size": 1668,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        "app_index_js"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "federation-stats.json",
+      "size": 28,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    }
+  ],
+  "namedChunkGroups": {
+    "clientAppEntrypoint": {
+      "name": "clientAppEntrypoint",
+      "chunks": [
+        "clientAppEntrypoint"
+      ],
+      "assets": [
+        {
+          "name": "clientAppEntrypoint.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "app2": {
+      "name": "app2",
+      "chunks": [
+        "app2"
+      ],
+      "assets": [
+        {
+          "name": "remoteEntry.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "clientAppEntrypoint",
+      "files": [
+        "clientAppEntrypoint.js"
+      ]
+    },
+    {
+      "id": "app2",
+      "files": [
+        "remoteEntry.js"
+      ]
+    },
+    {
+      "id": "app_index_js",
+      "files": [
+        "app_index_js.js"
+      ]
+    }
+  ]
+}
