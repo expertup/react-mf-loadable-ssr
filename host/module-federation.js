@@ -13,9 +13,6 @@ module.exports = {
       remotes: {
         app2: 'app2@http://localhost:3002/static/remoteEntry.js',
       },
-      exposes: {
-        'app2/Login_register': './err/index.js',
-      },
       /*shared: [
         {
           'styled-components': {
